@@ -1,0 +1,54 @@
+.color {
+  background-color: red;
+}
+body {
+  background-color: lightgreengreen;
+  
+}
+.card { 
+  border-style: solid;
+  border-width: 3px;
+  border-color: green;
+  border-radius: 10px;
+  width: 450px;
+}
+img {
+  margin: 25px;
+  width: 400px;
+  height: auto;
+}
+.btn-wrapper {
+  margin: 24px;
+}
+.btn-wrapper button {
+  font-size: 24px;
+  color: green;
+  background-color: white;
+}
+.btn-wrapper button:hover {
+  color: white;
+  background-color: green;
+}
+.header {
+  font-size: 20px;
+  margin: 25px;
+}
+.paragraph {
+  font-size: 20px;
+  margin: 25px;
+}
+@media screen and (max-width: 800px) {  
+  div.Frog {
+    display: none;
+  }
+  div.header{
+    display: none;
+  }
+  div.paragraph{
+    display: none;
+  }
+
+}
+div, span {
+  display: inline-block;
+}
